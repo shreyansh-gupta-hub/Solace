@@ -1,0 +1,61 @@
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Audio files
+*.mp3
+*.wav
+*.aiff
+
+# Build files
+frontend/build/
+frontend/dist/
+
+# Documentation
+*.md
+!README.md
+
+# Firebase
+firebase-service-account.json
+.firebase/
+
+# Temporary files
+temp/
+tmp/
+*.tmp

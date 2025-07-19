@@ -1,0 +1,119 @@
+/**
+ * Dr. Samaira AI Therapist - Main Application Styles
+ * 
+ * Copyright (c) 2025 Shreyansh Gupta
+ * All Rights Reserved
+ * https://shreygupta.vercel.app
+ */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Mobile optimizations */
+@media (max-width: 600px) {
+  .mobile-hidden {
+    display: none !important;
+  }
+  
+  .mobile-compact {
+    padding: 8px !important;
+  }
+  
+  .mobile-toolbar {
+    min-height: 56px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .mobile-avatar {
+    width: 32px !important;
+    height: 32px !important;
+    margin-right: 8px !important;
+  }
+  
+  .mobile-title {
+    font-size: 1rem !important;
+  }
+  
+  .mobile-chip {
+    height: 24px !important;
+    font-size: 0.7rem !important;
+  }
+  
+  .mobile-message {
+    max-width: 85% !important;
+    min-width: unset !important;
+  }
+  
+  .mobile-message-avatar {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  
+  .mobile-message-content {
+    padding: 12px !important;
+  }
+  
+  .mobile-input-area {
+    padding: 8px !important;
+  }
+  
+  .mobile-voice-controls {
+    bottom: 16px !important;
+    right: 16px !important;
+    max-width: 280px !important;
+  }
+}
+
+/* Animation keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes voiceWave {
+  0%, 100% {
+    height: 4px;
+  }
+  50% {
+    height: 16px;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(102, 126, 234, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(102, 126, 234, 0.7);
+}

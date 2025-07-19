@@ -1,0 +1,101 @@
+/**
+ * Dr. Samaira AI Therapist - Mobile-specific styles
+ * 
+ * Copyright (c) 2025 Shreyansh Gupta
+ * All Rights Reserved
+ * https://shreygupta.vercel.app
+ */
+
+/* Mobile optimizations */
+@media (max-width: 600px) {
+  /* General UI adjustments */
+  .MuiToolbar-root {
+    min-height: 56px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  
+  .MuiAvatar-root {
+    width: 32px !important;
+    height: 32px !important;
+  }
+  
+  .MuiChip-root {
+    height: 24px !important;
+    font-size: 0.7rem !important;
+  }
+  
+  .MuiIconButton-root {
+    padding: 6px !important;
+  }
+  
+  /* Chat messages */
+  .chat-message {
+    margin-bottom: 12px !important;
+  }
+  
+  .chat-message .MuiAvatar-root {
+    width: 36px !important;
+    height: 36px !important;
+  }
+  
+  .chat-message .MuiPaper-root {
+    padding: 12px !important;
+    border-radius: 16px 16px 16px 4px !important;
+  }
+  
+  .chat-message.user-message .MuiPaper-root {
+    border-radius: 16px 16px 4px 16px !important;
+  }
+  
+  .chat-message .MuiTypography-body1 {
+    font-size: 0.875rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .chat-message .MuiTypography-caption {
+    font-size: 0.65rem !important;
+  }
+  
+  /* Input area */
+  .input-container {
+    padding: 8px !important;
+  }
+  
+  .MuiTextField-root .MuiOutlinedInput-root {
+    font-size: 0.875rem !important;
+    padding: 8px 12px !important;
+  }
+  
+  /* Voice controls */
+  .voice-controls {
+    bottom: 16px !important;
+    right: 16px !important;
+    max-width: 280px !important;
+  }
+  
+  .voice-controls .MuiCardContent-root {
+    padding: 12px !important;
+  }
+  
+  .voice-controls .MuiFab-root {
+    width: 64px !important;
+    height: 64px !important;
+  }
+  
+  /* Welcome screen */
+  .welcome-card {
+    margin: 16px !important;
+    padding: 16px !important;
+  }
+  
+  /* Modals */
+  .MuiDialog-paper {
+    margin: 16px !important;
+    width: calc(100% - 32px) !important;
+  }
+  
+  .MuiDialogContent-root {
+    padding: 16px !important;
+  }
+}
