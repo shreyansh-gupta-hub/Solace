@@ -125,7 +125,7 @@ DEFAULT_VOICE_EMOTION=calm
 ## 🌟 Key Features
 
 ### 💬 Therapeutic Conversations
-- Empathetic AI therapist "Dr. Sarah"
+- Empathetic AI therapist "Dr. Samaira"
 - Professional therapeutic boundaries
 - Context-aware conversation memory
 - Crisis resource recommendations
@@ -155,7 +155,7 @@ DEFAULT_VOICE_EMOTION=calm
 ### Web Interface
 1. Visit http://localhost:3000
 2. Click the microphone to start voice conversation
-3. Speak naturally - Dr. Sarah will respond with voice
+3. Speak naturally - Dr. Samaira will respond with voice
 4. Switch between text and voice modes seamlessly
 
 ### API Integration

@@ -390,13 +390,13 @@ function App() {
       
       setNotification({
         open: true,
-        message: 'Session started successfully! Dr. Sarah is ready to help.',
+        message: 'Session started successfully! Dr. Samaira is ready to help.',
         severity: 'success'
       });
       
       setError(null);
     } catch (err) {
-      setError('Failed to connect to Dr. Sarah. Please check your connection and try again.');
+      setError('Failed to connect to Dr. Samaira. Please check your connection and try again.');
       setConnectionStatus('error');
       setNotification({
         open: true,
@@ -1103,7 +1103,7 @@ function App() {
                     }}
                   >
                     <Typography variant="body2" color="text.secondary">
-                      Dr. Sarah is typing
+                      Dr. Samaira is typing
                     </Typography>
                     <Box className="typing-dots">
                       <CircularProgress size={16} />
