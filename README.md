@@ -1,184 +1,123 @@
-# 🧠 AI Therapist - Complete Voice-Enabled Web Application
+# 🧠 Solace - AI Therapist  
 
-A production-ready AI therapist with sweet voice, empathetic conversations, and beautiful web interface.
+A production-ready **voice-enabled AI therapist** with a sweet, empathetic voice, therapeutic conversations, and a beautiful web interface.  
 
-## 🎉 Project Status: Phase 4 Complete!
+---
 
-All phases successfully implemented and ready for production deployment.
+## 🌟 Key Highlights  
 
-## Project Phases
+- 💬 **Therapeutic Conversations**: Context-aware AI therapist "Dr. Samaira" with professional therapeutic boundaries.  
+- 🎤 **Voice Capabilities**: Whisper STT + ElevenLabs TTS for real-time, emotion-aware voice therapy.  
+- 🌐 **Beautiful Web Interface**: React.js + Material-UI frontend with responsive design.  
+- ⚡ **Real-Time Interaction**: WebSocket-powered seamless chat and voice sessions.  
+- 🔒 **Secure & Scalable**: Firebase authentication, Firestore persistence, and enterprise-level data protection.  
 
-### ✅ Phase 1: Core Functionality (COMPLETE)
-- Text-based AI therapist using OpenAI GPT-4o-mini
-- Empathetic personality and therapeutic prompts
-- Professional therapeutic boundaries and safety
+---
 
-### ✅ Phase 2: Text-to-Speech (COMPLETE)
-- ElevenLabs integration for sweet, therapeutic voice
-- Emotion-controlled speech generation (calm, supportive, encouraging, empathetic)
-- Real-time audio playback with system TTS fallback
+## 🛠 Tech Stack  
 
-### ✅ Phase 3: Speech-to-Text (COMPLETE)
-- OpenAI Whisper API integration for accurate transcription
-- Voice input processing with push-to-talk interface
-- Full voice conversation flow (voice-to-voice therapy sessions)
+- **AI/LLM**: OpenAI GPT-4o-mini  
+- **TTS**: ElevenLabs API + system TTS fallback  
+- **STT**: OpenAI Whisper API  
+- **Backend**: FastAPI with WebSocket support  
+- **Frontend**: React.js + Material-UI  
+- **Voice**: Web Audio API  
+- **Cloud & Auth**: Firebase Authentication + Firestore  
+- **Deployment**: Docker-ready, AWS/GCP compatible  
 
-### ✅ Phase 4: Frontend & Real-Time Interaction (COMPLETE)
-- Beautiful React.js web interface with Material-UI
-- Real-time WebSocket communication
-- Web-based voice recording and playback
-- Multi-user session management
-- Responsive design for all devices
+---
 
-### 🚀 Phase 5: Production & Scaling (READY)
-- Cloud deployment (AWS/GCP)
-- Database integration for session persistence
-- User authentication and security
-- Monitoring and analytics
-- Privacy compliance and ethics features
+## 🔥 Features  
 
-## 🛠 Tech Stack
+### 💬 Conversations  
+- Empathetic and context-aware AI therapy  
+- Crisis resources & professional boundaries  
+- AI memory for personalized responses  
 
-- **AI/LLM**: OpenAI GPT-4o-mini for therapeutic conversations
-- **TTS**: ElevenLabs API with sweet, caring voices + system TTS fallback
-- **STT**: OpenAI Whisper API for accurate speech recognition
-- **Backend**: FastAPI with WebSocket support
-- **Frontend**: React.js with Material-UI components
-- **Voice**: Web Audio API for recording, real-time audio processing
-- **Deployment**: Docker-ready, cloud-native architecture
+### 🎤 Voice Interface  
+- Sweet, therapeutic voice optimized for calm, supportive interactions  
+- Real-time voice-to-voice conversations  
+- Push-to-talk & auto-listening options  
+- Clear visual feedback during voice sessions  
 
-## 🔥 Firebase Integration Features
+### 🌐 Web Experience  
+- Modern, responsive UI with gradient therapeutic themes  
+- Multi-user session support  
+- Accessible design with keyboard navigation  
+- Cross-device sync for therapy sessions  
 
-### Cloud-Native Architecture
-- **Firebase Authentication**: Secure user accounts with email/password
-- **Firestore Database**: Scalable NoSQL database for user data and conversations
-- **Real-time Sync**: Instant synchronization across devices
-- **Global Scale**: Handles millions of users automatically
-- **Enterprise Security**: Built-in security rules and data protection
+### 🔧 Technical Capabilities  
+- Persistent conversation storage in Firestore  
+- Secure user authentication via Firebase Auth  
+- Error handling & intelligent fallbacks for voice services  
+- Monitoring, analytics & privacy compliance ready  
 
-### User Experience
-- **Persistent Sessions**: All conversations saved to the cloud
-- **Cross-Device Access**: Access your therapy sessions from any device
-- **AI Memory**: Personalized responses based on conversation history
-- **Secure Authentication**: Industry-standard Firebase Auth
+---
 
-## 🎤 Voice Interface Features
+## 🚀 Quick Start  
 
-### Improved Speech-to-Speech Experience
-- **Smart Listening**: AI waits for you to finish speaking before responding
-- **Auto-listening Control**: Disabled by default, can be enabled for hands-free conversations
-- **Clear Visual Feedback**: Different icons for voice toggle vs interface mode
-- **ElevenLabs Integration**: High-quality, therapeutic voice synthesis
-- **Timing Optimization**: Proper delays between AI speech and listening activation
-
-### Voice Interface Modes
-- **Chat Mode**: Traditional text-based interface with optional voice responses
-- **Voice Mode**: Full speech-to-speech conversation experience
-- **Hybrid Mode**: Mix of text input with voice responses
-
-## 🚀 Quick Start
-
-### Option 1: Web Application (Recommended)
+### 1. Clone & Install  
 ```bash
-# 1. Install Python dependencies
+git clone https://github.com/yourusername/solace.git
+cd solace
 pip install -r requirements.txt
-
-# 2. Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys
-
-# 3. Start both backend and frontend
-python start_web_app.py
-
-# 4. Open browser to http://localhost:3000
 ```
 
-### Option 2: Command Line Interface
-```bash
-# For terminal-based voice conversations
-python main.py
-```
-
-### Option 3: API Server Only
-```bash
-# For API development and testing
-python api_server.py
-# Visit http://localhost:8000/docs for API documentation
-```
-
-## 🔑 Environment Setup
-
-Create a `.env` file with your API keys:
-
+### 2. Configure Environment  
+Create a `.env` file:  
 ```env
-# Required
 OPENAI_API_KEY=your_openai_api_key_here
-
-# Optional (for premium voice quality)
 ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
-
-# Voice Settings
 ENABLE_VOICE=true
 DEFAULT_VOICE_EMOTION=calm
 ```
 
-## 🌟 Key Features
+### 3. Run Application  
+```bash
+python start_web_app.py
+```
+Visit 👉 [http://localhost:3000](http://localhost:3000)  
 
-### 💬 Therapeutic Conversations
-- Empathetic AI therapist "Dr. Samaira"
-- Professional therapeutic boundaries
-- Context-aware conversation memory
-- Crisis resource recommendations
+---
 
-### 🎤 Voice Capabilities
-- **Sweet, caring voice** optimized for therapy
-- **Emotion-aware speech** (calm, supportive, encouraging, empathetic)
-- **Real-time voice input** with accurate transcription
-- **Web-based recording** with visual feedback
+## 📱 Usage  
 
-### 🌐 Web Interface
-- **Beautiful, therapeutic design** with gradient backgrounds
-- **Responsive layout** for desktop, tablet, and mobile
-- **Real-time messaging** via WebSockets
-- **Professional UI** with Material-UI components
-- **Accessibility features** and keyboard navigation
+### Web Interface  
+1. Open browser at `http://localhost:3000`  
+2. Log in with Firebase Authentication  
+3. Start a voice or text session with **Dr. Samaira**  
+4. Switch seamlessly between text, voice, or hybrid modes  
 
-### 🔧 Technical Features
-- **Multi-user sessions** with concurrent support
-- **Intelligent fallbacks** for voice services
-- **Error handling** and user feedback
-- **Session management** and cleanup
-- **API documentation** with OpenAPI/Swagger
-
-## 📱 Usage Examples
-
-### Web Interface
-1. Visit http://localhost:3000
-2. Click the microphone to start voice conversation
-3. Speak naturally - Dr. Samaira will respond with voice
-4. Switch between text and voice modes seamlessly
-
-### API Integration
+### API Integration Example  
 ```javascript
-// Create therapy session
+// Create session
 const session = await fetch('/api/session/create', {
   method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ enable_voice: true })
+  headers: { 'Content-Type': 'application/json' }
 });
 
 // Send message
 const response = await fetch('/api/chat', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ 
-    message: "I'm feeling anxious today",
-    session_id: sessionId 
-  })
+  body: JSON.stringify({ message: "I'm feeling anxious today", session_id })
 });
-```
+```  
 
-## 🏗 Architecture
+---
+
+## 📊 API Endpoints  
+
+- `GET /` → Web interface  
+- `POST /api/session/create` → Create therapy session  
+- `POST /api/chat` → Send text message  
+- `POST /api/voice/transcribe` → Voice to text  
+- `POST /api/voice/synthesize` → Text to voice  
+- `WebSocket /ws/{session_id}` → Real-time communication  
+
+---
+
+## 🏗 Architecture  
 
 ```
 Frontend (React.js) ↔ WebSocket/REST API ↔ FastAPI Backend ↔ AI Therapist Core
@@ -188,52 +127,47 @@ Voice Recording          Real-time Updates   Voice Processing     ElevenLabs TTS
 Audio Playback           CORS Support        File Handling        Whisper STT
 ```
 
-## 📊 API Endpoints
+---
 
-- `GET /` - Web interface
-- `POST /api/session/create` - Create therapy session
-- `POST /api/chat` - Send text message
-- `POST /api/voice/transcribe` - Voice to text
-- `POST /api/voice/synthesize` - Text to voice
-- `WebSocket /ws/{session_id}` - Real-time communication
-
-## 🧪 Testing
+## 🧪 Testing  
 
 ```bash
-# Test voice capabilities
+# Test ElevenLabs TTS
 python test_elevenlabs_tts.py
 
-# Test Phase 3 (full voice conversation)
+# Test voice conversation flow
 python test_phase3.py
 
-# Test all phases
+# Run complete demo
 python demo_all_phases.py
 ```
 
-## 🎯 Production Ready
+---
 
-The AI Therapist is now production-ready with:
-- ✅ Complete voice conversation capabilities
-- ✅ Beautiful, responsive web interface
-- ✅ Real-time communication
-- ✅ Multi-user session support
-- ✅ Professional error handling
-- ✅ Comprehensive API documentation
-- ✅ Docker-ready architecture
+## 🎯 Production Deployment  
 
-## 🤝 Contributing
-
-This project demonstrates a complete AI therapist implementation from concept to production-ready web application. Perfect for:
-- Mental health applications
-- Voice AI demonstrations
-- Therapeutic chatbot research
-- Full-stack AI application examples
-
-## 📄 License
-
-Built for educational and therapeutic purposes. Please ensure compliance with healthcare regulations in your jurisdiction.
+- Deploy on **AWS/GCP** with Docker  
+- Firebase handles **auth, database, and real-time sync**  
+- Built-in monitoring and analytics hooks  
+- Privacy and ethics compliance ready for mental health use cases  
 
 ---
 
-**🎉 Ready to help people feel better with AI therapy!** 💙# Solace
-# Solace
+## 🤝 Contributing  
+
+We welcome contributions to enhance **Solace**. Ideal areas:  
+- UI/UX improvements  
+- New therapeutic voice models  
+- Advanced analytics & dashboards  
+- Additional privacy & compliance features  
+
+---
+
+## 📄 License  
+
+Built for educational and therapeutic purposes.  
+⚠️ Ensure compliance with healthcare regulations in your region before production use.  
+
+---
+
+**💙 Solace – Helping people feel better with AI therapy.**  
